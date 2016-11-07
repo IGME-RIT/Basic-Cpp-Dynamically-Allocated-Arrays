@@ -14,3 +14,5 @@ connections:
     title: Arrays
   - series: Basic C++
     title: The Const Keyword
+  - series: Basic C++
+    title: The Stack and the Heap

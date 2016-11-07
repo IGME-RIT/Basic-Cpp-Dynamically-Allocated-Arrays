@@ -41,6 +41,12 @@ int main()
         cout << "Print array:                       " << numberArray << endl;   // It turns out, an array is no more than a pointer to the stack.
         cout << "Pointer to first element in array: " << numberPointer << endl; // How can we use this information?
 
+        //      There's only  one key difference.
+        // numberArray = { 1, 2, 3 };   // This isn't allowed.
+        
+        cout << "More Correct: Arrays are CONST pointers." << endl;
+
+
 
         // This means we can use a pointer just like we would us an array, and vice versa:
         cout << "\nIndexing into array:" << endl;

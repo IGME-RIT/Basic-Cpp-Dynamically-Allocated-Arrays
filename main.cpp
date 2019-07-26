@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 
-#include "../header/frog.h"
+#include "frog.h"
 
 // Include iostream for output during the program.
 #include <iostream>
